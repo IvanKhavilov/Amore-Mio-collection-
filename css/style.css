@@ -208,7 +208,7 @@ body {
     padding: 50px 0 50px;
   }
   .collection {
-    padding: 50px 0 5px;
+    padding: 0;
   }
   .gallary {
     padding-bottom: 50px;
@@ -250,6 +250,7 @@ body {
   .collection__text-third-decor {
     padding: 0;
     margin-top: 30px;
+    margin-bottom: 0px;
   }
   .collection__text-third-decor::after,
   .collection__text-third-decor::before {
@@ -257,9 +258,11 @@ body {
   }
   .collection__text-third {
     padding: 30px 0 0;
+    margin-bottom: 0;
   }
   .gallary__inner {
     grid-template-columns: repeat(1, 1fr);
+    grid-gap: 30px;
   }
   .gallary__img {
     max-width: 100%;
@@ -273,7 +276,7 @@ body {
     font-size: 32px;
   }
   .offer__text {
-    font-size: 30px;
+    font-size: 25px;
     line-height: 36px;
   }
 }
